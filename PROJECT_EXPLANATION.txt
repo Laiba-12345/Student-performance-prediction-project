@@ -1,0 +1,51 @@
+STUDENT PERFORMANCE PREDICTION — EASY EXPLANATION
+
+1. WHAT IS THE PROJECT?
+This project predicts a student's final score using Machine Learning.
+
+2. WHAT DATA IS USED?
+The dataset contains:
+- study_hours
+- attendance
+- previous_score
+- assignments_completed
+- sleep_hours
+- final_score
+
+3. WHAT IS THE TARGET?
+final_score is the target variable because it is the value we want the model to predict.
+
+4. WHY RANDOM FOREST REGRESSOR?
+The target is a numerical value from 0 to 100, so this is a regression problem.
+Random Forest Regressor can learn non-linear relationships between multiple input features and a numerical target.
+
+5. TRAINING AND TESTING
+80% of the data is used for training.
+20% is kept for testing.
+
+6. EVALUATION METRICS
+MAE (Mean Absolute Error):
+Average absolute difference between actual and predicted scores.
+Lower is better.
+
+RMSE (Root Mean Squared Error):
+Penalizes larger prediction errors more strongly.
+Lower is better.
+
+R²:
+Shows how much of the variation in the target is explained by the model.
+Closer to 1 is generally better.
+
+7. FEATURE IMPORTANCE
+The model estimates which input features were most useful for its predictions.
+
+8. LIMITATION
+This project uses synthetic data. It demonstrates the ML workflow but is not a validated system for real students.
+
+9. HOW TO EXPLAIN IT IN AN INTERVIEW
+"I built a Student Performance Prediction project using Python and scikit-learn.
+I generated a structured dataset containing study hours, attendance, previous score,
+assignment completion, and sleep hours. I used train-test splitting and trained a
+Random Forest Regressor. I evaluated it using MAE, RMSE and R-squared, and also
+analyzed feature importance. The project helped me practice the complete machine
+learning pipeline from data preparation to prediction and evaluation."
